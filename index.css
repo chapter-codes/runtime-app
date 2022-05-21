@@ -1,0 +1,116 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    }
+    body{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    header{
+        background-image: linear-gradient(90deg,brown, rgb(124, 37, 37) );
+        height:4rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+ 
+    header code{
+        color:aquamarine;
+    
+        font-size:1.5rem;
+    }
+    .mode button {
+        padding: .5rem;
+        border-radius: 10px;
+        background-color: white;
+        
+    }
+
+    main{
+        padding:.5rem;
+    }
+    section{
+        text-align: center;
+    }
+    .entries > div{
+        margin:.5rem 0;
+    }
+    input{
+        display:inline-block;
+        width:120px;
+        height:50px;
+        text-align: center;
+        font-weight: bold;
+        font-size: larger;
+        vertical-align: middle;
+    }
+    select{
+        height:50px;
+        vertical-align: middle;
+    }
+
+
+    section button{
+        width:40%;
+        height:4rem;
+        display: block;
+        margin:10px auto;
+        background-image: linear-gradient(90deg,brown, rgb(124, 37, 37) );
+        color:white;
+        
+        border-radius: 5px;
+        box-shadow: 0px 0px 5px 1px rgb(157, 140, 140);
+    }
+
+    .desc, .item{
+        background-image: linear-gradient(90deg,brown, rgb(124, 37, 37) );
+        width:100%;
+        margin:1rem auto;
+        display: flex;
+        justify-content: space-around;
+    }
+    .desc li{
+        list-style: none;
+        height:4rem;
+        background-color: brown;
+        color:white;
+        line-height:4rem;
+        text-align: center;
+        font-size:17px;
+        flex-grow:1
+    }
+
+    .item{
+        background-image: linear-gradient(90deg, silver, silver);
+        height:3rem;
+        border-radius: 5px
+    }
+
+    .item li{
+        flex-grow:1;
+        text-align: center;
+        line-height: 3rem;
+        list-style:none;
+        font-size: 20px;   
+        font-family: Verdana, Geneva, Tahoma, sans-serif;   
+    }
+    .item li:last-of-type{
+        text-align: right;
+    }
+    .del{
+        height: 2rem;
+        width:2rem;
+        line-height: 2rem;
+        margin:.5rem  5px .5rem 0;
+        text-align: center;
+        border-radius: 50%;
+        display:inline-block;
+        color: white;
+        background-color: brown;
+        font-size:14px;
+        cursor: pointer;
+    }
+
+    h3{
+        text-align: center;
+    }

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TimeApp</title>
+   <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <code>TimeApp</code> 
+        </div>
+        <div class="mode">
+            <button>dark theme</button>
+        </div>
+         
+
+    </header>
+    
+    <main>
+        <section class="entries">
+            <div class="first">
+                <input type="number" name="am" placeholder="1030 AM" min="4" max="4" >
+                <select name="zone"  >
+                    <option value="AM" >AM</option>
+                    <option value="PM" >PM</option>
+
+                </select>
+            </div>
+            
+            <div class="second">
+                <input type="number" name="pm"  placeholder="1230 PM"  min="4" max="4">
+                <select name="zone" >
+                    <option value="PM">PM</option>
+                    <option value="AM">AM</option>
+                </select>
+            </div>
+            <div class="save">
+                <button>save</button>
+            </div>
+            
+        </section>
+   
+        <section class="view">
+
+       
+        </section>
+        <div class="desc">
+            <li>Start-time </li>
+            <li>End-time </li>
+            <li>Run-time (Hr)</li>
+            <li></li>
+        </div>
+        <section class="items">
+        </section>
+
+        <h3 >total time <span class="total">0:0</span> hr(s)</h3>
+       
+    
+    </main>
+    <footer></footer>
+    <script src="./index.js"></script>
+ 
+</body>
+</html>
