@@ -8,7 +8,7 @@ am.addEventListener('keyup', handleChange)
 pm.addEventListener('keyup', handleChange)
 btnSave.addEventListener('click', handleSave)
 
-am.value='0030'; pm.value=1030
+
 
 
 
